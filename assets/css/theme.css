@@ -8,10 +8,10 @@ body {
   background-color: #E4E7EA;
 }
 a {
-  color: #ffb300;
+  color: #8ACDFF;
 }
 a:hover {
-  color: #00897b;
+  color: black;
 }
 .bg-image.no-image {
   background-color: #26a69a;
@@ -20,11 +20,11 @@ a:hover {
 /* --- Navbar --------------------------------------------------------------- */
 
 .navbar {
-  background-color: #26a69a;
-  color: white;
+  background-color: #ffb300;
+  color: black;
 }
 .navbar a {
-  color: white;
+  color: black;
 }
 .navbar--nav-link:hover {
   background-color: rgba(255,255,255,.5);
@@ -41,7 +41,7 @@ a:hover {
   background-color: #26a69a;
 }
 .header--subtitle {
-  color: #ddd;
+  color: white;
 }
 
 /* --- Content -------------------------------------------------------------- */
@@ -112,6 +112,10 @@ a:hover {
   background-color: #ffb300;
 }
 
+/*.card--actions .button {
+  color: black;
+}*/
+
 /* --- Waves ---------------------------------------------------------------- */
 
 .wave {
@@ -121,22 +125,22 @@ a:hover {
 /* --- Footer --------------------------------------------------------------- */
 
 .footer {
-  background-color: #00897b;
+  background-color: #8ACDFF;
 }
 .footer a {
-  color: #B2DFDB;
+  color: #473816;
 }
 .footer a:hover {
   color: #FFFFFF;
 }
 .footer--top {
-  color: #80cbc4;
+  color: black;
 }
 .footer--bottom a {
   color: #004d40;
 }
 .footer--bottom a:hover {
-  color: #80cbc4;
+  color: #3D3626;
 }
 .footer--bottom {
   color: #004d40 ;
