@@ -11,10 +11,13 @@ a {
   color: #8ACDFF;
 }
 a:hover {
-  color: black;
+  color: #ffb300;
 }
+
+/* header image but also cards before hover @ bottom
+if they have no image on the post */
 .bg-image.no-image {
-  background-color: #26a69a;
+  background-color: #ffb300;
 }
 
 /* --- Navbar --------------------------------------------------------------- */
@@ -92,14 +95,16 @@ a:hover {
   background-color: rgba(0,0,0,.05);
 }
 .author--media {
-  background-color: #26a69a;
+  background-color: #8ACDFF;
 }
 
 /* --- FABs ----------------------------------------------------------------- */
 
+/* share button at top of post */
+
 .fab {
   color: white;
-  background-color: #ffb300;
+  background-color: #3AAAFF;
 }
 .fab:hover {
   color: white;
@@ -111,10 +116,6 @@ a:hover {
   color: white;
   background-color: #ffb300;
 }
-
-/*.card--actions .button {
-  color: black;
-}*/
 
 /* --- Waves ---------------------------------------------------------------- */
 
